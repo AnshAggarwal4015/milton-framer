@@ -1,9 +1,11 @@
-import "./App.css";
+import Body from "./components/Body";
+import Header from "./components/Header";
 
-function App() {
+const App = () => {
   return (
-    <div className="App text-bold text-green-800">
-      Ansh Aggarwal
+    <div className="App bg-[#FEF9F6]">
+      <Header />
+      <Body />
     </div>
   );
 }
