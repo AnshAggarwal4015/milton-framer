@@ -4,27 +4,22 @@ export const headerMenuItems = [
   {
     id: 1,
     name: "Features",
-    path: "#features-section",
   },
   {
     id: 2,
     name: "Testimonial",
-    path: "#testimonial-section",
   },
   {
     id: 3,
     name: "Pricing",
-    path: "#pricing-section",
   },
   {
     id: 4,
     name: "FAQs",
-    path: "#faqs-section",
   },
   {
     id: 5,
     name: "Blog",
-    path: "#blog-section",
   },
 ];
 
@@ -229,23 +224,165 @@ export const yearlyPriceCards = [
 
 export const faqData = [
   {
+    key: "1",
     question: "Can I cancel my subscription?",
     answer:
       "You can cancel your plan whenever you’d like. You’ll be downgraded to the free plan. You won’t be locked out of any projects that have paid plans.",
   },
   {
+    key: "2",
     question: "What happens when my trial ends?",
     answer:
       "When your trial period ends, your account will automatically be downgraded to our free plan, with limited features and functionality. To continue enjoying the full benefits of our service, you can upgrade to one of our paid plans at any time during or after the trial. Your data and settings will be preserved, ensuring a seamless transition as you move forward with our SaaS platform.",
   },
   {
+    key: "3",
     question: "What payment methods do you offer?",
     answer:
       "We aim to provide a seamless experience for our customers. We accept a variety of payment methods, including major credit cards (Visa, MasterCard, American Express, and Discover), PayPal, and bank transfers.",
   },
   {
+    key: "4",
     question: "What is your refund policy?",
     answer:
       "Our refund policy is designed with customer satisfaction in mind. If you are not satisfied with our service, you can request a full refund within 30 days of your initial purchase. To initiate the refund process, please contact our support team through the 'Help' section in your account or email us at support@Milton.com, and we'll be happy to assist you.",
+  },
+];
+
+export const reviews = [
+  {
+    id: 1,
+    text: "Highly recommend",
+    rating: "⭐⭐⭐⭐⭐",
+    review:
+      "This app has saved me so much time and stress! I used to constantly forget important dates, but now I can stay on top of everything. You should test it!",
+    author: "Sophie Devilan",
+    occupation: "Entrepreneur",
+  },
+  {
+    id: 2,
+    text: "The best time manager app",
+    rating: "⭐⭐⭐⭐⭐",
+    review:
+      "I love how user-friendly this app is! It's so easy to add events and set reminders, and it's made my life so much more organized.",
+    author: "Brad de Costa",
+    occupation: "Head of Marketing",
+  },
+  {
+    id: 3,
+    text: "Saves me time",
+    rating: "⭐⭐⭐⭐⭐",
+    review:
+      "Since I started using this app, I've saved so much time. I no longer have to manually add appointments or set reminders - it's all done for me!",
+    author: "Kyle Conord",
+    occupation: "CEO of RoastingOS",
+  },
+  {
+    id: 4,
+    text: "No more forgotten appointments",
+    rating: "⭐⭐⭐⭐⭐",
+    review:
+      "I'm not the most organized person, but this app has made it so easy for me to stay on top of things! I love how I can set reminders and get notifications, and it's really helped me.",
+    author: "Michel O Neil",
+    occupation: "Head of Sales",
+  },
+  {
+    id: 5,
+    text: "Fantastic app!",
+    rating: "⭐⭐⭐⭐⭐",
+    review:
+      "This app is fantastic! It's user-friendly, efficient, and has become an essential tool in my daily routine. Highly recommended!",
+    author: "Emily Watson",
+    occupation: "Software Engineer",
+  },
+  {
+    id: 6,
+    text: "Great for productivity",
+    rating: "⭐⭐⭐⭐⭐",
+    review:
+      "As a project manager, staying organized is crucial. This app has greatly improved my productivity by helping me manage tasks and deadlines seamlessly.",
+    author: "Alex Turner",
+    occupation: "Project Manager",
+  },
+  {
+    id: 7,
+    text: "Simple yet powerful",
+    rating: "⭐⭐⭐⭐⭐",
+    review:
+      "I appreciate the simplicity of this app. It's not overloaded with unnecessary features, yet it provides all the essential tools for effective time management.",
+    author: "Olivia Manning",
+    occupation: "Freelancer",
+  },
+  {
+    id: 8,
+    text: "Impressive functionality",
+    rating: "⭐⭐⭐⭐⭐",
+    review:
+      "The functionality of this app is impressive. The ability to customize and prioritize tasks has significantly improved my day-to-day workflow.",
+    author: "Daniel Chen",
+    occupation: "UX Designer",
+  },
+  {
+    id: 9,
+    text: "A must-have tool",
+    rating: "⭐⭐⭐⭐⭐",
+    review:
+      "For anyone juggling multiple responsibilities, this app is a must-have tool. It has become my go-to solution for staying organized and focused.",
+    author: "Grace Johnson",
+    occupation: "Small Business Owner",
+  },
+  {
+    id: 10,
+    text: "Excellent support",
+    rating: "⭐⭐⭐⭐⭐",
+    review:
+      "Not only is the app great, but the customer support is excellent too. Any questions or concerns are addressed promptly, making the user experience even better.",
+    author: "Chris Rodriguez",
+    occupation: "Customer Support Specialist",
+  },
+  {
+    id: 11,
+    text: "Helpful for daily planning",
+    rating: "⭐⭐⭐⭐⭐",
+    review:
+      "This app has been incredibly helpful for my daily planning. I can easily organize my schedule, set priorities, and ensure nothing falls through the cracks.",
+    author: "Eva Martinez",
+    occupation: "Teacher",
+  },
+  {
+    id: 12,
+    text: "Enhanced my work-life balance",
+    rating: "⭐⭐⭐⭐⭐",
+    review:
+      "Using this app has enhanced my work-life balance. I feel more in control of my time, which has positively impacted both my professional and personal life.",
+    author: "Michael Anderson",
+    occupation: "Financial Analyst",
+  },
+  {
+    id: 13,
+    text: "Intuitive design",
+    rating: "⭐⭐⭐⭐⭐",
+    review:
+      "The app's intuitive design makes it easy to navigate and use. Even if you're not tech-savvy, you'll find it simple to incorporate into your daily routine.",
+    author: "Lucy Davis",
+    occupation: "Graphic Designer",
+  },
+  {
+    id: 14,
+    text: "Efficient and reliable",
+    rating: "⭐⭐⭐⭐⭐",
+    review:
+      "This app is efficient and reliable. The reminders are timely, and the overall functionality has made managing my schedule a breeze.",
+    author: "Andrew Lee",
+    occupation: "IT Specialist",
+  },
+  {
+    id: 15,
+    text: "Perfect for teamwork",
+    rating: "⭐⭐⭐⭐⭐",
+    review:
+      "In a team setting, this app is perfect for coordinating tasks and deadlines. It ensures everyone is on the same page, contributing to a more organized and efficient workflow.",
+    author: "Jessica Reynolds",
+    occupation: "Team Lead",
   },
 ];

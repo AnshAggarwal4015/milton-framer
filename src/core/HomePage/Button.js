@@ -1,8 +1,8 @@
 import React from "react";
 
-const Button = ({ children, active }) => {
+const Button = ({ children, active, styling }) => {
   return (
-    <button>
+    <button className={styling}>
       <div
         className={`font-plus-jakarta-sans shadow-customHomePageButton text-center text-base px-6 py-3 rounded-xl font-bold
         ${

@@ -10,11 +10,11 @@ const FAQs = () => {
       <div className="mt-2 my-10 text-5xl font-extrabold text-[#2E2E2E]">
         Frequently asked questions
       </div>
-      <div>
-        {faqData.map((item) => {
-          return <Accordion title={item.question} content={item.answer} />;
-        })}
-      </div>
+      {
+        faqData.map((item) => {
+          return <Accordion props={item} key={item.id} />;
+        })
+      }
     </div>
   );
 };

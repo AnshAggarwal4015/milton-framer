@@ -29,7 +29,7 @@ const PricingCard = ({ props }) => {
         {billingFrequency}
       </div>
       <div className="flex flex-col items-center justify-center">
-        <CTAButton active={false}> Get Started </CTAButton>
+        <CTAButton active={false} styling={`w-full`} > Get Started </CTAButton>
         <div className="text-xs	text-[#000000] mt-[7px]">{trial}</div>
       </div>
       <div className="mt-12">
